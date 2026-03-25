@@ -1,0 +1,41 @@
+product_name,category,brand,avg_price_per_100g_ml,unit
+Cooking Oil,Edible Oil,Generic,20.0,ml
+Fortune Sunflower Oil,Edible Oil,Fortune,22.5,ml
+Saffola Gold Oil,Edible Oil,Marico,28.0,ml
+Surf Excel,Detergent,HUL,35.0,g
+Ariel,Detergent,P&G,38.0,g
+Tide,Detergent,P&G,28.0,g
+Tata Salt,Salt,Tata,5.0,g
+Aashirvaad Atta,Flour,ITC,7.0,g
+Pilsbury Atta,Flour,General Mills,8.5,g
+Basmati Rice,Rice,Generic,12.0,g
+India Gate Basmati,Rice,KRBL,18.0,g
+Tata Sampann Rice,Rice,Tata,10.0,g
+Maggi Noodles,Noodles,Nestle,45.0,g
+Yippee Noodles,Noodles,ITC,38.0,g
+Colgate Toothpaste,Dental Care,Colgate,30.0,g
+Pepsodent,Dental Care,HUL,26.0,g
+Sensodyne,Dental Care,Haleon,80.0,g
+Dettol Soap,Personal Care,Reckitt,28.0,g
+Lux Soap,Personal Care,HUL,25.0,g
+Lifebuoy Soap,Personal Care,HUL,20.0,g
+Dove Soap,Personal Care,HUL,40.0,g
+Amul Butter,Dairy,Amul,50.0,g
+Amul Milk,Dairy,Amul,5.5,ml
+Mother Dairy Milk,Dairy,Mother Dairy,6.0,ml
+Bournvita,Beverages,Cadbury,60.0,g
+Horlicks,Beverages,GSK,55.0,g
+Boost,Beverages,GSK,65.0,g
+Parle-G Biscuits,Biscuits,Parle,18.0,g
+Good Day Biscuits,Biscuits,Britannia,30.0,g
+Oreo Biscuits,Biscuits,Cadbury,50.0,g
+Tata Tea Premium,Tea,Tata,55.0,g
+Red Label Tea,Tea,HUL,60.0,g
+Nescafe Classic,Coffee,Nestle,180.0,g
+Bru Coffee,Coffee,HUL,160.0,g
+Vim Dishwash Gel,Household,HUL,22.0,ml
+Pril Dishwash,Household,Henkel,20.0,ml
+Harpic Toilet Cleaner,Household,Reckitt,25.0,ml
+Lizol Floor Cleaner,Household,Reckitt,18.0,ml
+Rin Detergent,Detergent,HUL,15.0,g
+Wheel Detergent,Detergent,HUL,12.0,g
