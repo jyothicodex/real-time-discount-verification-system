@@ -1,4 +1,4 @@
-# 🛍️ DeciBuy — Smart Price Auditor
+# 🛍️ DeciBuy — Discount verification system
 
 ## 📌 Overview
 
@@ -60,8 +60,6 @@ http://localhost:8501
 
 ## 🧠 Optional AI Setup
 
-For enhanced explanations:
-
 ```bash
 # Install Ollama and run:
 ollama pull qwen3-vl:4b
@@ -88,15 +86,15 @@ ollama pull qwen3-vl:4b
 
 ```
 DeciBuy/
-├── app.py
-├── price_engine.py
-├── discount_detector.py
-├── ai_engine.py
-├── ocr_engine.py
-├── deal_classifier.py
-├── product_db.csv
-├── user_history.csv
-└── requirements.txt
+├── app.py                # Main UI and app flow (Streamlit interface)
+├── price_engine.py       # Unit price calculation, market lookup, deal scoring
+├── discount_detector.py  # Detects fake discounts (MRP, shrinkflation, % tricks)
+├── ai_engine.py          # Generates AI-based explanations (Ollama + fallback)
+├── ocr_engine.py         # Extracts text from bill images (OCR processing)
+├── deal_classifier.py    # ML model to classify deal quality
+├── product_db.csv        # Market reference dataset (average product prices)
+├── user_history.csv      # Stores user purchase history
+├── requirements.txt      # Project dependencies
 ```
 
 ---
@@ -126,7 +124,7 @@ DeciBuy/
 
 ## 🎯 Design Philosophy
 
-* Minimal and clean UI
+* Clean and minimal UI
 * Focus on real-world usefulness
 * Actionable insights over complex analytics
 
@@ -137,9 +135,11 @@ DeciBuy/
 * Live price integration (Blinkit, BigBasket APIs)
 * Mobile app with barcode scanning
 * Crowdsourced pricing data
-* Price prediction using ML
+* Price prediction using machine learning
 
 ---
+
+## 💡 Tagline
 
 **DeciBuy — Smart Shopping, Real Decisions**
 
