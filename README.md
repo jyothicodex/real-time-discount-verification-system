@@ -7,6 +7,13 @@ It evaluates product prices, detects misleading discounts, and recommends the be
 
 ---
 
+##live demo:
+http://localhost:8504/
+
+
+
+
+
 ## 🚀 Key Features
 
 * 🔍 **Single Item Analysis**
